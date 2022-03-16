@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Prompt', sans-serif;
+}
+
+/* .grid-container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 10px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.grid-container > div{
+	border: 1px solid black;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+} */
+
+.Tap{
+    grid-column: 1 / span 1;
+    display: flex;
+    /* padding: 10px; */
+    /* height: auto; */
+
+}
+
+.Tap_con{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 85px;
+    background-color: #9C7183;
+}
+
+#Portfolio{
+    position: absolute;
+    left: 100px;
+    font-size: large;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.Menu{
+    /* background-color: #7492A6; */
+    position: absolute;
+    right: 100px;
+    display: flex;
+    /* padding: 10px; */
+    /* margin: 50px; */
+
+    display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-gap: 40px;
+	margin: 0 auto;
+	max-width: 100%;
+    font-size: medium;
+    /* font-weight: 100; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+/* .Home{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: url(assets/images/Rectangle_1.png);
+} */
+
+/* .Home>section{
+    grid-template-columns: auto;
+    border: 1px solid black;
+} */
+
+#Home_container{
+    max-width: 100%;
+    width: 100%;
+    height: 1000px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: url(assets/images/Rectangle_1.png);
+}
+
+.Pic1{
+    /* padding-top: 200px; */
+    /* padding-bottom: 200px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 407px;
+    height: 407px;
+}
+.Home h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.Pic2{
+    /* position: relative; */
+    /* z-index: 20; */
+    pointer-events: none;
+    margin-left: 0px;
+    width: 665px;
+    min-width: 665px;
+    /* height: 1182px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 1182px;
+}
+
+#About_container{
+    display: flex;
+    /* margin: 20px; */
+}
+
+/* .Info{
+    margin: 50px;
+} */
+
+.Aboutcon{
+    margin: 50px;
+}
+.Info h1{
+    font-size: 48px;
+}
+
+.Info h2{
+
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.Skill h1{
+    font-size: 48px;
+}
+
+.Skill_con img{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+.Assigment{
+    background-color: #7492A6;
+}
+.Assigcon{
+    padding: 100px;
+}
+
+.Assigcon h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 8px;
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    font-size: 36px;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    /* transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); */
+}
+
+.button:hover{
+    background-color: #AEAAB6;
+}
+
+.Contact{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: url(assets/images/Rectangle_3.png);
+}
+
+.Cconn{
+    /* display: flex; */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.Line{
+    position: relative;
+    z-index: 15;
+    pointer-events: none;
+    margin-left: 1080px;
+    width: 338px;
+    min-width: 338px;
+    height: 386px;
+    margin-top: -410px;
+    margin-bottom: 24px;
+    min-height: 386px;
+
+
+}
+
+.Line img{
+    position: relative; 
+    z-index: 16;
+    pointer-events: none;
+    margin-left: 0px;
+    width: 338px;
+    min-width: 338px;
+    height: 338px;
+    margin-top: -338px;
+    
+    margin-bottom: 0px;
+    min-height: 338px;
+}
+
+.Line h3{
+    pointer-events: none;
+    z-index: 17;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+}
+
+.Contact_con{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.Contact img{
+    width: 175px;
+    height: 175px;
+    position: relative;
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Contact h1{
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+}
+
+.Coninfo{
+    /* margin-left: 200px; */
+    display: block;
+    font-size: 36px;
+    /* margin: 50px; */
+}
+
+.Coninfo a{
+    margin-top: auto;
+    margin-bottom: auto;
+
+    margin-left: 50px;
+}
+
+.facebook{
+    display: flex;
+    /* position: relative; */
+    margin: 30px;
+}
+
+/* .facebook a{
+    padding: 87.5px;
+} */
+
+.ig{
+    display: flex;
+    margin: 30px;
+}
+/* .ig a{
+    padding: 87.5px;
+} */
+.email{
+    display: flex;
+    margin: 30px;
+}
+/* .email a{
+    padding: 87.5px;
+} */
+
+.Project_container {
+	display: grid;
+	grid-template-columns: auto;
+	/* grid-gap: 10px; */
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.Project_container > div{
+	/* border: 1px solid black; */
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+.Project_container .header{
+    grid-column: 1 / span 1;
+    display: flex;
+}
+
+.header_con{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 85px;
+    background-color: #9C7183;
+}
+
+.project{
+    position: absolute;
+    left: 100px;
+    font-size: large;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.header .menu{
+    /* background-color: #7492A6; */
+    position: absolute;
+    right: 100px;
+    display: flex;
+    /* padding: 10px; */
+    /* margin: 50px; */
+
+    display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 10px;
+	margin: 0 auto;
+	max-width: 100%;
+    font-size: medium;
+    /* font-weight: 100; */
+}
+
+.Project_container .main{
+    margin-top: 100px;
+}
+
+.main h1{
+    text-align: left;
+    font-size: 48px;
+    margin-left: 100px;
+}
+.main h2{
+    font-size: 24px;
+}
+
+.sticker .s1 img{
+    width: 400px;
+    height: 411px;
+}
+
+.sticker .s2 img{
+    width: 400px;
+    height: 369px;
+}
+
+.sticker .s1{
+    display: flex;
+    margin-left: 200px;
+}
+
+.sticker .s2{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 200px;
+}
+
+
+.ss1{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ss2{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.linkbutton{
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    font-size: 24px;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    /* transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); */
+}
+
+.linkbutton:hover{
+    background-color: #AEAAB6;
+}
+
+.Project_container .main{
+    margin-bottom: 100px;
+}
